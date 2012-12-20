@@ -8,7 +8,10 @@ function engine() {
 	
 	
 	load("index.tpl");
-	echo html();	
+	innerHTML("#navbar",fetch("navbar.tpl"));
+	innerHTML("#hero",fetch("hero.tpl"));
+	
+	echo html();
 	
 	/*zip("test.zip");
 	addToZip("sn-system/conf","");

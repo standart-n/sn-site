@@ -2,3 +2,9 @@ body {
   padding-top: 60px;
   padding-bottom: 40px;
 }
+
+#slide-wellcome {
+  background-image: url(../img/slide_wellcome.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
