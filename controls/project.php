@@ -10,6 +10,7 @@ function engine() {
 	load("index.tpl");
 	innerHTML("#navbar",fetch("navbar.tpl"));
 	innerHTML("#hero",fetch("hero.tpl"));
+	innerHTML("#content",fetch("content.tpl"));
 	
 	echo html();
 	

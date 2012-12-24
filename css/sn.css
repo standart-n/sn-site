@@ -1,10 +1,56 @@
-body {
-  padding-top: 60px;
+#main {
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
+#navbar {
+  position: fixed;
+}
+
+#content {
+  margin-top: 10px;
+}
+
 #slide-wellcome {
-  background-image: url(../img/slide_wellcome.jpg);
-  background-position: 0 0;
+  height: 445px;
+  background-color: #ededd9;
+  background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (min-width: 1200px) {
+  #slide-wellcome {
+    background-image: url(../img/hero/apriori_1200.jpg);
+  }
+}
+
+@media (max-width: 1200px) {
+  #slide-wellcome {
+    background-image: url(../img/hero/apriori_750.jpg);
+  }
+}
+
+/*
+// 1920
+@media (min-width: 1681px) {
+	#slide-wellcome {
+		background-image:url(../img/hero/picasso_1_1920x500_blur_1.jpg);
+	}
+}
+
+// 1680
+@media (min-width: 1440px) and (max-width: 1680px) {
+	#slide-wellcome {
+		background-image:url(../img/hero/picasso_1_1680x500_blur_1.jpg);
+	}
+}
+
+
+// 1440
+@media (max-width: 1439px) {
+	#slide-wellcome {
+		background-image:url(../img/hero/slide_1_1440x500.jpg);
+	}
+}
+
+*/
