@@ -1,10 +1,5 @@
 #main {
-  padding-top: 40px;
   padding-bottom: 40px;
-}
-
-#navbar {
-  position: fixed;
 }
 
 #content {
@@ -54,3 +49,15 @@
 }
 
 */
+
+@media (min-width: 980px) {
+  #main {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 979px) {
+  #main {
+    padding-top: 0;
+  }
+}

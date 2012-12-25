@@ -1,25 +1,40 @@
 	<div class="container">
 		<div class="row">
+			
+			<h2>Готовые решения по автоматизации торговли</h2>
+			
 			<ul class="thumbnails">
 	
 				<li class="span4">
 					<div class="thumbnail">
-						<h5>Одежда и Обувь</h5>
+						<h4>Одежда и Обувь</h4>
 						<img src="sn-project/img/ready/automation_odegda.png" alt="">
+						<p>
+							<a class="btn btn-medium btn-primary" href="#odegda">Подробнее</a>
+							<a class="btn btn-medium href="#odegda">Примеры</a>
+						</p>
 					</div>
 				</li>
 
 				<li class="span4">
 					<div class="thumbnail">
-						<h5>Одежда и Обувь</h5>
-						<img src="sn-project/img/ready/automation_odegda.png" alt="">
+						<h5>Косметика и парфюмерия</h5>
+						<img src="sn-project/img/ready/automation_parfum.png" alt="">
+						<p>
+							<a class="btn btn-medium btn-primary" href="#odegda">Подробнее</a>
+							<a class="btn btn-medium href="#odegda">Особенности</a>
+						</p>
 					</div>
 				</li>
 
 				<li class="span4">
 					<div class="thumbnail">
-						<h5>Одежда и Обувь</h5>
-						<img src="sn-project/img/ready/automation_odegda.png" alt="">
+						<h4>Продкуты питания</h4>
+						<img src="sn-project/img/ready/automation_produkty.png" alt="">
+						<p>
+							<a class="btn btn-medium btn-primary" href="#odegda">Подробнее</a>
+							<a class="btn btn-medium href="#odegda">Отличия</a>
+						</p>
 					</div>
 				</li>
 	
