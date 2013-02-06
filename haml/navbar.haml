@@ -1,0 +1,17 @@
+
+#navbar.navbar.navbar-fixed-top
+	.navbar-inner
+		.container
+			.btn.btn-navbar{:data => {:toggle => "collapse", :target => ".nav-collapse"}}
+				.icon-bar
+				.icon-bar
+				.icon-bar
+			.brand{:href =>"#"} Стандарт-Н
+			.nav-collapse
+				%ul.nav
+					%li.active
+						%a{:href => "#"} Главная
+					%li
+						%a{:href => "#about"} Автоматизация
+					%li
+						%a{:href => "#contact"} Документооборот
