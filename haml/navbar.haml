@@ -9,9 +9,9 @@
 			.brand{:href =>"#"} Стандарт-Н
 			.nav-collapse
 				%ul.nav
-					%li.active
-						%a{:href => "#"} Главная
-					%li
-						%a{:href => "#about"} Автоматизация
-					%li
-						%a{:href => "#contact"} Документооборот
+					%li{:class => "{if ($page=='main')}active{/if}"}
+						%a{:href => "/main"} Главная
+					%li{:class => "{if ($page=='automation')}active{/if}"}
+						%a{:href => "/automation"} Автоматизация
+					%li{:class => "{if ($page=='spacepro')}active{/if}"}
+						%a{:href => "/spacepro"} Документооборот

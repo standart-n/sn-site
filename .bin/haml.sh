@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
 
-cd ./tpl/templates/
-for i in $( ls *.tpl );
-do
-	rm ${i/.tpl/}.tpl
-done
-cd ../../
+rm -R ./tpl/templates/
+mkdir ./tpl/templates/
+touch ./tpl/templates/.gitignore
 
 cd ./haml/
 for i in $( ls *.haml );

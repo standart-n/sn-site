@@ -9,14 +9,14 @@
       <div class='brand' href='#'>Стандарт-Н</div>
       <div class='nav-collapse'>
         <ul class='nav'>
-          <li class='active'>
-            <a href='#'>Главная</a>
+          <li class="{if ($page=='main')}active{/if}">
+            <a href='/main'>Главная</a>
           </li>
-          <li>
-            <a href='#about'>Автоматизация</a>
+          <li class="{if ($page=='automation')}active{/if}">
+            <a href='/automation'>Автоматизация</a>
           </li>
-          <li>
-            <a href='#contact'>Документооборот</a>
+          <li class="{if ($page=='spacepro')}active{/if}">
+            <a href='/spacepro'>Документооборот</a>
           </li>
         </ul>
       </div>

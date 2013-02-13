@@ -12,7 +12,7 @@
     <meta Lang='ru' content='2012 НВП Стандарт-Н' name='Copyright'>
     <meta content='all' name='robots'>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-    <meta content='user-scalable=no' name='viewport'>
+    <!-- %meta{:name => "viewport", :content => "user-scalable=no"} -->
     <link href='sn-project/favicon.ico' rel='icon' type='image/x-icon'>
     <link href='sn-project/favicon.ico' rel='shortcut icon' type='image/x-icon'>
     <link href='sn-project/css/style.css' rel='stylesheet' type='text/css'>

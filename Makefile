@@ -11,9 +11,9 @@ HR=\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\
 
 all: start coffee-js js css img haml-tpl finish
 
-sn: sn-css coffee-js sn-js lmd
+sn: sn-css main-css coffee-js sn-js lmd
 
-bs: bs-css bs-js bs-img lmd
+bs: bs-css main-css bs-js bs-img lmd
 
 js: coffee-js sn-js bs-js lmd
 

@@ -6,17 +6,17 @@ php_value upload_max_filesize 50M
 php_value post_max_size 50M
 php_value memory_limit 32M
 
-#Options FollowSymLinks
-#RewriteEngine on
-#RewriteCond %{HTTP_HOST} ^maestro18
-#RewriteRule ^maestro18(.*)$ http://www.maestro18.ru/$1 [NC,R=301,L]
+Options FollowSymLinks
+RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^dev.st-n.ru
+#RewriteRule ^dev.st-n.ru(.*)$ http://www.dev.st-n.ru/$1 [NC,R=301,L]
 
-#RewriteBase  /maestro/ 
-#RewriteRule ^.htaccess$ - [F] 
-#RewriteCond %{REQUEST_FILENAME} !\.(jpg|jpeg|gif|png|css|js|pl|txt|ini|php|html)$ 
-#RewriteCond %{REQUEST_FILENAME} !-f 
-#RewriteCond %{REQUEST_FILENAME} !-d 
-#RewriteRule ^(.*)$ index.php?$1 [QSA]
+RewriteBase  /st-n/_dev/
+RewriteRule ^.htaccess$ - [F] 
+RewriteCond %{REQUEST_FILENAME} !\.(jpg|jpeg|gif|png|css|js|pl|txt|ini|php|html)$ 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ index.php?$1 [QSA]
 
 <IfModule mod_charset.c>
 CharsetSourceEnc utf-8
